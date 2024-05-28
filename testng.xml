@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name='JobbyAppTest4' parallel="classes" thread-count="5">
+
+
+    <test name="LoginAndHeaderAndHomePageAndJobPageTest">
+        <classes>
+        <class name="com.infy.tanu.LoginPageTest"/>
+            <class name="com.infy.tanu.HeaderSectionTest"/>
+            <class name="com.infy.tanu.HomePageTest"/>
+            <class name="com.infy.tanu.JobPageTest"/>
+        </classes>
+    </test>
+</suite>
